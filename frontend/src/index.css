@@ -1,0 +1,82 @@
+main{
+    min-height: 80vh;
+}
+
+h1{
+  font-size: 1.8rem;
+  padding:1rem 0;
+}
+
+h2{
+  font-size: 1.4rem;
+  padding:0.5rem 0;
+}
+
+h3{
+    padding:1rem 0;
+}
+
+.rating span{
+  margin:0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h4 {
+  color: #fff;
+}
+
+.carousel img {
+  display:block;
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+
+#submit-btn{
+  margin-top: 15px;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+.create-product{
+  margin-left: 390px;
+}
+
+.search-hover {
+  border: 1px solid #ccc;
+  outline: none;
+  background-size: 1px;
+  background-position: 13px;
+  border-radius: 10px;
+  width: 200px;
+  height: 20px;
+  padding: 20px;
+  transition: all 0.7s;
+}
+.search-hover:hover {
+  width: 200px;
+  padding-left: 20px;
+}
+
+.shopping-cart{
+  padding-left: 850px;
+}
